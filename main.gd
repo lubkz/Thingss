@@ -1,5 +1,5 @@
 extends Node3D
-
+#Just testing teleport
 # Frames
 func _process(delta: float) -> void:
 	var p = Vector3(0, 0, 0)
