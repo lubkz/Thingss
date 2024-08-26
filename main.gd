@@ -1,8 +1,6 @@
 extends Node3D
-@onready var character_body_3d: CharacterBody3D = $CharacterBody3D
-@onready var player: Node3D = $"."
 
-# Função chamada a cada frame
+# Frames
 func _process(delta: float) -> void:
 	var p = Vector3(0, 0, 0)
 	if Input.is_action_just_pressed("interact"):
